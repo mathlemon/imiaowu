@@ -1,0 +1,26 @@
+{
+  "name": "imiaowu",
+  "version": "0.0.1",
+  "description": "wechat.imiaowu.com",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mathlemon/imiaowu.git"
+  },
+  "keywords": [
+    "imiaowu"
+  ],
+  "author": "lemon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mathlemon/imiaowu/issues"
+  },
+  "homepage": "https://github.com/mathlemon/imiaowu",
+  "dependencies": {
+    "express": "~4.0.0",
+    "wechat": "~0.6.7"
+  }
+}
