@@ -3,6 +3,8 @@ var wechat = require('wechat');
 var config = require('./config');
 
 var app = express();
+var ipaddr = process.env.OPENSHIFT_INTERNAL_IP;
+var port = parseInt(process.env.OPENSHIFT_INTERNAL_PORT) || 8080;
 
 // simple logger
 app.use(function(req, res, next){
@@ -100,4 +102,4 @@ app.use(function(req, res, next){
 });
 
 console.log("app started");
-app.listen(3000);
+app.listen(port);
